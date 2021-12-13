@@ -1,4 +1,5 @@
 package be.intecbrussel.abstracts;
 
-public class CustomerCheckService {
+public interface CustomerCheckService {
+    boolean CheckIfRealPerson(Customer customer) throws Exception;
 }
